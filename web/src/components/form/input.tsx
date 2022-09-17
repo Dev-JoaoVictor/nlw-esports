@@ -7,8 +7,8 @@ export function Input(props: InputProps) {
     return(
         <input
         {...props}
-        placeholder='Selecione o game que deseja jogar' 
-        className='bg-zinc-900 by-3 bx-4 rounded text-sm placeholder:text-zinc-500'
+         
+        className='bg-zinc-900 py-3 px-4 rounded text-sm placeholder:text-zinc-500'
         />
         
     )
