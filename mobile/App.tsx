@@ -9,7 +9,7 @@ import {
 } from '@expo-google-fonts/inter'
 
 
-import { Home } from './src/home';
+import { Routes } from './src/routes';
 import { Loading } from './src/components/loading';
 import { Background } from './src/components/background';
 
@@ -31,7 +31,7 @@ export default function App() {
       
       />
 
-      {  fonstLoaded ? <Home/> : <Loading/> }
+      {  fonstLoaded ? <Routes/> : <Loading/> }
     </Background>
   );
 }
